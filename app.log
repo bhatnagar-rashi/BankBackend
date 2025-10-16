@@ -1,0 +1,64 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2025-10-01T15:53:12.067+05:30  INFO 78764 --- [BankingSystem] [           main] c.s.B.BankingSystemApplication           : Starting BankingSystemApplication v0.0.1-SNAPSHOT using Java 21.0.7 with PID 78764 (/Users/ritik.gariya/Desktop/BankingSystem/target/BankingSystem-0.0.1-SNAPSHOT.jar started by ritik.gariya in /Users/ritik.gariya/Desktop/BankingSystem)
+2025-10-01T15:53:12.068+05:30  INFO 78764 --- [BankingSystem] [           main] c.s.B.BankingSystemApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-10-01T15:53:12.441+05:30  INFO 78764 --- [BankingSystem] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-01T15:53:12.465+05:30  INFO 78764 --- [BankingSystem] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
+2025-10-01T15:53:12.665+05:30  INFO 78764 --- [BankingSystem] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-01T15:53:12.677+05:30  INFO 78764 --- [BankingSystem] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-01T15:53:12.677+05:30  INFO 78764 --- [BankingSystem] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-01T15:53:12.693+05:30  INFO 78764 --- [BankingSystem] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-01T15:53:12.693+05:30  INFO 78764 --- [BankingSystem] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 609 ms
+2025-10-01T15:53:12.761+05:30  INFO 78764 --- [BankingSystem] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-01T15:53:12.802+05:30  INFO 78764 --- [BankingSystem] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-01T15:53:12.815+05:30  INFO 78764 --- [BankingSystem] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-01T15:53:12.892+05:30  INFO 78764 --- [BankingSystem] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-01T15:53:12.902+05:30  INFO 78764 --- [BankingSystem] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-01T15:53:12.977+05:30  INFO 78764 --- [BankingSystem] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@782e6b40
+2025-10-01T15:53:13.006+05:30  INFO 78764 --- [BankingSystem] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-01T15:53:13.018+05:30  WARN 78764 --- [BankingSystem] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-01T15:53:13.031+05:30  INFO 78764 --- [BankingSystem] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-01T15:53:13.325+05:30  INFO 78764 --- [BankingSystem] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-01T15:53:13.415+05:30  INFO 78764 --- [BankingSystem] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T15:53:13.626+05:30  WARN 78764 --- [BankingSystem] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-01T15:53:13.796+05:30  INFO 78764 --- [BankingSystem] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-01T15:53:13.800+05:30  INFO 78764 --- [BankingSystem] [           main] c.s.B.BankingSystemApplication           : Started BankingSystemApplication in 1.906 seconds (process running for 2.097)
+2025-10-01T15:59:15.075+05:30  INFO 78764 --- [BankingSystem] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-01T15:59:15.075+05:30  INFO 78764 --- [BankingSystem] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-01T15:59:15.077+05:30  INFO 78764 --- [BankingSystem] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Hibernate: 
+    select
+        c1_0.id,
+        c1_0.created_at,
+        c1_0.dob,
+        c1_0.email,
+        c1_0.first_name,
+        c1_0.last_name,
+        c1_0.password,
+        c1_0.phone 
+    from
+        customers c1_0 
+    where
+        c1_0.email=?
+Hibernate: 
+    insert 
+    into
+        customers
+        (created_at, dob, email, first_name, last_name, password, phone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
